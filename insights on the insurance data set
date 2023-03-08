@@ -1,1 +1,30 @@
+I have used the insurance data set to create a linear regression model and be able to prodict how much a customer with be charged based on some factors such as 
+BMI, if he or she is a SMOKER and also based on the the number of children he or she has.
+with the target being the charges first I used the factor BMI to see how much he os she will be charged and the regressor score was 0.013821597073977787 which is about 1.3821% and this might is because i considered only one factor the predicted scores of the first ten row was
+Actual	Predicted
+0	7281.50560	12104.281935
+1	5267.81815	11733.814767
+2	12347.17200	16159.922504
+3	24513.09126	10951.717414
+4	3736.46470	11363.347600
+5	7358.17565	13791.965697
+6	9788.86590	10618.080316
+7	17085.26760	11714.316495
+8	8211.10020	10475.092988
+9	19798.05455	8770.07742
+i realized that with the use of one factor is not recommendable since the accuracy is very low
+In the second part i used two factors which were the the age and the number of children to predict the charges and the accuracy score was 0.05078801571259495 which is about 5.0788% which is a bit higher than when i had used only one factor
+with the prediction of the first 10 rows being
+Actual	Predicted
+0	7281.50560	13614.735864
+1	5267.81815	12118.052761
+2	12347.17200	18937.008149
+3	24513.09126	19088.708298
+4	3736.46470	10166.269210
+5	7358.17565	13918.136162
+6	9788.86590	16657.250224
+7	17085.26760	8062.785511
+8	8211.10020	15160.567121
+9	19798.05455	14881.740899
+To have a higher score you have to consider all the factors
 
