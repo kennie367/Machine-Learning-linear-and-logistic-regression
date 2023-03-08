@@ -1,1 +1,12 @@
+I have used the churn data set to create a logistic regression model and be able to prodict if a customer will exit a bank based on some factors such as
+CreditScore	
+Geography	
+Gender	
+Age	
+Tenure	
+Balance	
+NumOfProducts	
+HasCrCard
+IsActiveMember	
+EstimatedSalary
 
