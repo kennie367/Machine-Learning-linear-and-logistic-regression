@@ -9,4 +9,8 @@ NumOfProducts
 HasCrCard
 IsActiveMember	
 EstimatedSalary
-
+The outcome of the model was
+Accuracy: 0.792
+Precision: 0.4827586206896552
+Recall: 0.06763285024154589
+F1 score: 0.11864406779661016
